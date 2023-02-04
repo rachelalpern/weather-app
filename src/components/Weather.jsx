@@ -8,7 +8,7 @@ import Cards from "./Cards";
 import Main from "./Main";
 import { getData, getSuccess } from "../redux/Selectors";
 import { ToastContainer } from "react-toastify";
-import * from "react-toastify/dist/ReactToastify.css";
+import "react-toastify/dist/ReactToastify.css";
 
 const Weather = () => {
   const [city, setCity] = useState("");
