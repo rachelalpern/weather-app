@@ -22,9 +22,7 @@
   },
   "devDependencies": {
     "@babel/runtime": "7.13.8",
-    "typescript": "^3.2.1",
-    "transformIgnorePatterns": [
-      "node_modules/(?!(axios|react-toastify))"]
+    "typescript": "^3.2.1"
   },
   "scripts": {
     "start": "react-scripts start",
